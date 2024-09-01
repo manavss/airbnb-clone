@@ -29,7 +29,5 @@ export async function GET() {
       },
     });
   }
-  return NextResponse.redirect(
-    "http://https://airbnb-clone-krd2n1ztl-manavss-projects.vercel.app"
-  );
+  return NextResponse.redirect("https://airbnb-clone-pied-delta.vercel.app/");
 }
